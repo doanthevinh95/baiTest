@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function isprime(a){
+
+    let number = 1;
+
+    if (a <2) return number = 0; 
+
+    let i = 2;
+    while(i <a){
+        if( a%i==0 ) {
+            number = 0;
+            break; 
+        }
+        i++;
+    }
+
+    return number;
+}
+
+let a= prompt(" nhap mot so a: ");
+let b= prompt(" nhap mot so b: ");
+
+
+let i = 0, check=0, result ="";
+   while ( i < a){
+    check = isprime(i);
+    if( check == 1 ) result += i + " ";
+    ++i;
+}
+document.write(result); 
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    font-size: 32px;
+    margin-top: 100px;
+    color: #151B32;
+    padding: 0 100px;
+}
+#header:hover{
+    text-decoration: underline #0d99ff;
+}
+#nav{
+    display: flex;
+    padding: 0 100px;
+    margin-top: 20px;
+}
+#nav .search{
+    border: 1px solid  ;
+    display: flex;
+    font-size: 16px;
+    padding-left: 10px;
+    width: 300px;
+    height: 50px;
+}
+#nav .search i{
+    font-size: 16px;
+    line-height: 50px;
+    padding: 0 10px;
+    display: block;
+}
+#nav .search p{
+    line-height: 50px;
+}
+.sub-nav{
+    margin-left: 200px;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+}
+.sub-nav span{
+    /* width: calc(100%/5); */
+    line-height: 50px;
+    width: 200px;
+}
+#container{
+    padding: 0 100px;
+}
+#container .content{
+    display: flex;
+    padding-top: 100px;
+}
+#container .people{
+    display: flex;
+    width: calc(100%/3);
+}
+#container .people .image{
+    padding: 24px 10px 87px 24px ;
+}
+#container .people img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#container .people .note-user{
+    padding-top: 24px;
+}
+#container .sub-content{
+    display: flex;
+}
+.note-user .text{
+    display: flex;
+}
+.note-user p{
+    padding: 5px;  
+}
+.note-user .note-name{
+    border: 1px solid #0d99ff;
+    border-radius: 20px; 
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
